@@ -1,6 +1,6 @@
 ## Basic React Native App
- Redux
- React Native Navigation Wix
+ Redux,
+ React Native Navigation Wix,
  Firebase
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
