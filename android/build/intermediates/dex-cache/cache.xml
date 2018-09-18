@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.aurelhubert\ahbottomnavigation\2.0.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.aurelhubert-ahbottomnavigation-2.0.6_560465cf1a44d8b2f07821e09050ea1bb128ce52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_6c8f9a53b77179ee27e1c9d9f1e6ae683506f54a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_d441a3933c2dff8a0e545e26ec333a6bb676f457.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_70213f06eb10eb1b64f6fba193b7787b7a1f1a5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_74bcffb1b04b99371a9bf8d6d94acedb00720099.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_a2073357866f15569d24ab018df035e0cfcaa6c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_30a491aca1215534b9cec57295322523cf98f002.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_15c7919a3ccafa404e496a46db834023b2333a91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_42ad71ebb4acafcd156b4a82328720ea31d83104.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu-toolbar\1.5.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.balysv.materialmenu-material-menu-toolbar-1.5.4_09518449385ea159516063e3b5f1757957950f95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_498c573453d8a9073157732b82e42d1d3120371e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\sellitApp\react-native-navigation\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="819bc38b015b00d23f787d201cc5e7d15e47173a">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\sellitApp-react-native-navigation-unspecified_4de5277fa2fa23ff242acca23a0dd32309288061.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_231a223afb4c924d88113c1cdc813207e1a11ab1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_4cdce7b3afad544eaf92f768dd7c272dc7005f10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu\1.5.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.balysv.materialmenu-material-menu-1.5.4_4b9a95e9231b8f93493a5ceb9b24d3d50113fc92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_54675b92b88cb79ff74f5d1e169b7fbaf3328975.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_07775f85ce260199fd93cd3ee0e15eb4d9f90d75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\library-2.4.0_629adb703c17ea01969e6a610d4d4a87c94fb367.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_eb64f005e148c70b36db9e32e55bbcf3231d27a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_8ff9fc9b54bd973518f1c216271e952643c8d6c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_90c0793855b0f4d166aefc6ec09c9a1b8bff2bdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_aec12b5976f6d9f029e71217c46d9058e32fecf1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_9f29129493110543c29d75c4e1defb7702cb5e73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_e9dac7840417c59d5f46b11fb0d2c81833fcde5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_57299bf50d8ecef613ff9040800fc8de48d16b2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_86b09baf813dbe79ea822defdf7c4f94539d7388.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_c7e0cd59083deb0096245cf4cd17e6d676225d92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_d359a9f4961de442c2da1cb96b7b3d6910a82625.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_459a6043b09eca7670111e1d3343c93fdf9e753c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_3022660a48b117f65d286f6cb20cd946e7f3b399.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_0f6182fa150e20ce83f38a4c55d0345a77ec3047.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_79b7cb5262b4575b0610d86f45441e471b1cc7f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_9ba71229d88443279924865dc895ca3225076cdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_ca45f3bc3a108773bcee22dd741f2f293eee8292.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\douglas\Documents\Dev\sellitApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_4a622e2961cb1770e30fb07b9221e7a0aa683b71.jar" />
+    </item>
+
+</items>
