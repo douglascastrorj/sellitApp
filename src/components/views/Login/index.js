@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, Button, ScrollView } from 'react-native';
+import { StyleSheet, View, ScrollView, ActivityIndicator } from 'react-native';
 
 import { 
   getOrientation,
   setOrientationListener,
   removeOrientationListener,
-  getPlatform
+  getPlatform,
+  getTokens,
+  setTokens
 } from '../../utils/misc';
 
 import LoadTabs from '../Tabs';
 import Logo from './logo';
 import LoginPanel from './loginPanel'
+
+import { connect } from 'react-redux';
+import { autoSignIn } from '../../Store/actions/user_actions';
+import { bindActionCreators } from 'redux';
+
 
 class Login extends Component {
 
@@ -19,6 +26,7 @@ class Login extends Component {
     super(props);
 
     this.state = {
+      loading:true,
       platform:getPlatform(),
       orientation: getOrientation(500),
       logoAnimation: false
@@ -33,10 +41,6 @@ class Login extends Component {
     })
   }
 
-  componentWillReceiveProps(props){
-    console.log(props);
-  }
-
   componentWillUnmount(){
     removeOrientationListener();
   }
@@ -47,22 +51,51 @@ class Login extends Component {
     })
   }
 
+  componentDidMount(){
+    getTokens((values) => {
+      if(values[0][1] === null){
+        this.setState({loading:false})
+      } else {
+        this.props.autoSignIn(values[1][1]).then(()=>{
+          if(!this.props.User.userData.token){
+            this.setState({loading:false})
+          } else {
+            setTokens(this.props.User.userData, () => {
+              LoadTabs();
+            })
+          }
+        })
+      }
+    })
+  }
+
+
   render() {
-    return (
-      <ScrollView>
-        <View style={styles.container}>
-          <Logo
-            showLogin={this.showLogin}
-            orientation={this.state.orientation}
-          />
-          <LoginPanel
-            platform={this.state.platform}
-            show={this.state.logoAnimation}
-            orientation={this.state.orientation}
-          />
+
+    if(this.state.loading){
+      return (
+        <View style={styles.loading}>
+          <ActivityIndicator/>
         </View>
-      </ScrollView>
-    );
+      )
+    } else {
+      return (
+        <ScrollView>
+          <View style={styles.container}>
+            <Logo
+              showLogin={this.showLogin}
+              orientation={this.state.orientation}
+            />
+            <LoginPanel
+              platform={this.state.platform}
+              show={this.state.logoAnimation}
+              orientation={this.state.orientation}
+            />
+          </View>
+        </ScrollView>
+      );
+    }
+    
   }
 }
 
@@ -71,8 +104,26 @@ const styles = StyleSheet.create({
     flex:1,
     backgroundColor:'#fff',
     alignItems: 'center',
+  },
+  loading: {
+    flex:1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 });
 
 
-export default Login;
+function mapStateToProps(state){
+  return{
+    User: state.User
+  }
+}
+
+function mapDispatchToProps(dispatch){
+  return bindActionCreators({autoSignIn}, dispatch)
+}
+
+
+// export default Login;
+export default connect(mapStateToProps,mapDispatchToProps)(Login)
