@@ -9,6 +9,15 @@ const navStyle = {
     navBarBackgroundColor: '#00ADA9'
 }
 
+const navLeftButton = (sources) => {
+    return {
+        title: 'Drawer',
+        id: 'DrawerButton',
+        icon: sources[0],
+        disableIconTint: true,
+        buttonColor: 'white'
+    }
+}
 
 const LoadTabs = () => {
 
@@ -24,16 +33,41 @@ const LoadTabs = () => {
                     label: "Home",
                     title: "Home",
                     icon: sources[2],
-                    navigatorStyle: navStyle
+                    navigatorStyle: navStyle,
+                    navigatorButtons:{
+                        leftButtons:[navLeftButton(sources)]
+                    }
                 },
                 {
                     screen: "sellitApp.AddPost",
                     label: "Sell it",
                     title: "Sell it",
                     icon: sources[1],
-                    navigatorStyle: navStyle
+                    navigatorStyle: navStyle,
+                    navigatorButtons:{
+                        leftButtons:[navLeftButton(sources)]
+                    }
                 }
-            ]
+            ],
+            tabsStyle:{
+                tabBarButtonColor: 'grey',
+                tabBarSelectedButtonColor: '#FFC636',
+                tabBarBackgroundColor: 'white',
+                tabBarTranslucent: false
+            },
+            appStyle:{
+                tabBarButtonColor: 'grey',
+                tabBarSelectedButtonColor: '#FFC636',
+                tabBarBackgroundColor: 'white',
+                navBarButtonColor: '#fff',
+                keepStyleAcrossPush: true
+            },
+            drawer: {
+                left: {
+                    screen: "sellitApp.SidedrawerComponent",
+                    fixedWidth: 500
+                }
+            }
         })
     })
 
