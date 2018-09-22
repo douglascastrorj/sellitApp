@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import Login from './src/components/views/Login';
 import Home from './src/components/views/Home';
 import AddPost from './src/components/views/Admin/AddPost';
+import UserPosts from './src/components/views/Admin/UserPosts';
 
 import SidedrawerComponent from './src/components/views/Sidedrawer';
 
@@ -36,6 +37,14 @@ Navigation.registerComponent("sellitApp.AddPost",
 Navigation.registerComponent("sellitApp.SidedrawerComponent",
   () =>
   SidedrawerComponent,
+  store,
+  Provider
+);
+
+
+Navigation.registerComponent("sellitApp.UserPosts",
+  () =>
+  UserPosts,
   store,
   Provider
 );
