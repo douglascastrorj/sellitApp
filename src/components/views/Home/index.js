@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
-import { navigatorDrawer, navigatorDeepLink } from '../../utils/misc';
+import { StyleSheet, View, ScrollView, Text } from 'react-native';
+import { navigatorDrawer, navigatorDeepLink, gridTwoColumns } from '../../utils/misc';
 import HorizontalScroll from './horizontal_scroll_icons';
+import Icon from 'react-native-vector-icons/FontAwesome';
+import BlockItem from './blockitem';
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -13,8 +15,10 @@ class Home extends Component {
     super(props);
 
     this.state = {
+      isLoading: true,
       categories:['All', 'Sports', 'Music', 'Clothing', 'Eletronics'],
-      categorySelected: "All"
+      categorySelected: "All",
+      articles: []
     }
 
     this.props.navigator.setOnNavigatorEvent((event) => {
@@ -31,9 +35,26 @@ class Home extends Component {
 
   componentDidMount(){
     this.props.getArticles('All').then( () => {
-      console.log(this.props.Articles.list);
+      console.log(this.props)
+      const newArticles = gridTwoColumns(this.props.Articles.list);
+      this.setState({
+        isLoading: false,
+        articles: newArticles
+      })
+     
     })
   }
+
+  showArticles = () => (
+    this.state.articles.map( (item,i) => (
+      <BlockItem 
+
+      key={`columnHome-${i}`}
+      item={item}
+      iteration={i}
+      />
+    ))
+  )
 
   render() {
     return (
@@ -44,6 +65,24 @@ class Home extends Component {
             categorySelected={this.state.categorySelected}
             updateCategoryHandler={this.updateCategoryHandler}
           />
+
+          {
+            this.state.isLoading ? 
+            <View style={styles.isLoading}>
+              <Icon name='gears' size={50} color='lightgrey'/>
+              <Text style={{color:'lightgrey'}}>
+                Loading...
+              </Text>
+            </View>
+            :null
+          }
+
+          <View style={styles.articleContainer}>
+            <View style={{flex:1}}>
+              {this.showArticles()}
+            </View>
+          </View>
+
         </View>
       </ScrollView>
       
@@ -54,13 +93,23 @@ class Home extends Component {
 const styles = StyleSheet.create({
   container:{
     marginTop: 5,
+  },
+  isLoading: {
+    flex: 1,
+    alignItems: 'center',
+    marginTop: 80
+  },
+  articleContainer:{
+    padding: 10,
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   }
 });
 
 function mapStateToProps(state){
-  console.log(state);
   return {
-    Articles: state.Article
+    Articles: state.Articles
   }
 }
 

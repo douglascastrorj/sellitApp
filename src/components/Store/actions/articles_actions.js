@@ -12,7 +12,7 @@ export function getArticles(category){
 
     let URL = `${FIREBASEURL}/articles.json`;
 
-    if(category != 'All'){
+    if(category !== 'All'){
         URL = '...' ;
     }
 
