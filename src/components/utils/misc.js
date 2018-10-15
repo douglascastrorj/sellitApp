@@ -4,7 +4,7 @@ import {
     AsyncStorage
 } from 'react-native';
 
-export const FIREBASEURL = `YOUR_PROJECT_URL`
+export const FIREBASEURL = `https://sellitapp-9f3b6.firebaseio.com`;
 export const APIKEY = `AIzaSyCb6yXpvYtu3A2G_oYE7fx6Wy-pnuTr-uw`;
 export const SIGNUP = `https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=${APIKEY}`
 export const SIGNIN= `https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=${APIKEY}`
