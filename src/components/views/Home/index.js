@@ -11,12 +11,12 @@ import { getArticles } from '../../Store/actions/articles_actions';
 
 class Home extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
 
     this.state = {
       isLoading: true,
-      categories:['All', 'Sports', 'Music', 'Clothing', 'Eletronics'],
+      categories: ['All', 'Sports', 'Music', 'Clothing', 'Eletronics'],
       categorySelected: "All",
       articles: []
     }
@@ -28,30 +28,47 @@ class Home extends Component {
   }
 
   updateCategoryHandler = (categorySelected) => {
-    this.setState({
-      categorySelected
-    })
+
+    if (this.state.categorySelected != categorySelected) {
+
+      this.setState({
+        categorySelected,
+        isLoading: true,
+        articles: []
+      });
+
+
+      this.props.getArticles(categorySelected).then(() => {
+        const newArticles = gridTwoColumns(this.props.Articles.list);
+        this.setState({
+          isLoading: false,
+          articles: newArticles
+        })
+      })
+
+    }
+
   }
 
-  componentDidMount(){
-    this.props.getArticles('All').then( () => {
+  componentDidMount() {
+    this.props.getArticles('All').then(() => {
       console.log(this.props)
       const newArticles = gridTwoColumns(this.props.Articles.list);
       this.setState({
         isLoading: false,
         articles: newArticles
       })
-     
+
     })
   }
 
   showArticles = () => (
-    this.state.articles.map( (item,i) => (
-      <BlockItem 
+    this.state.articles.map((item, i) => (
+      <BlockItem
 
-      key={`columnHome-${i}`}
-      item={item}
-      iteration={i}
+        key={`columnHome-${i}`}
+        item={item}
+        iteration={i}
       />
     ))
   )
@@ -67,31 +84,31 @@ class Home extends Component {
           />
 
           {
-            this.state.isLoading ? 
-            <View style={styles.isLoading}>
-              <Icon name='gears' size={50} color='lightgrey'/>
-              <Text style={{color:'lightgrey'}}>
-                Loading...
+            this.state.isLoading ?
+              <View style={styles.isLoading}>
+                <Icon name='gears' size={50} color='lightgrey' />
+                <Text style={{ color: 'lightgrey' }}>
+                  Loading...
               </Text>
-            </View>
-            :null
+              </View>
+              : null
           }
 
           <View style={styles.articleContainer}>
-            <View style={{flex:1}}>
+            <View style={{ flex: 1 }}>
               {this.showArticles()}
             </View>
           </View>
 
         </View>
       </ScrollView>
-      
+
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container:{
+  container: {
     marginTop: 5,
   },
   isLoading: {
@@ -99,7 +116,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 80
   },
-  articleContainer:{
+  articleContainer: {
     padding: 10,
     flex: 1,
     flexDirection: 'row',
@@ -107,14 +124,14 @@ const styles = StyleSheet.create({
   }
 });
 
-function mapStateToProps(state){
+function mapStateToProps(state) {
   return {
     Articles: state.Articles
   }
 }
 
-function mapDispatchToProps(dispatch){
-  return bindActionCreators({getArticles}, dispatch);
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({ getArticles }, dispatch);
 }
 
-export default connect(mapStateToProps,mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
